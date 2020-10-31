@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: tn.esprit.spring.EntrepriseServiceImplTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.056 sec <<< FAILURE! - in tn.esprit.spring.EntrepriseServiceImplTest
+TestajouterEntreprise(tn.esprit.spring.EntrepriseServiceImplTest)  Time elapsed: 0.042 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<12> but was:<10>
+	at tn.esprit.spring.EntrepriseServiceImplTest.TestajouterEntreprise(EntrepriseServiceImplTest.java:27)
+

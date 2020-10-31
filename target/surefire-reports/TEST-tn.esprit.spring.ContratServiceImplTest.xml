@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="tn.esprit.spring.ContratServiceImplTest" time="6.094" tests="1" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_60\jre\bin"/>
+    <property name="java.vm.version" value="25.60-b23"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Mahmoud\Desktop\Esprit\ESPRIT Finals\Intégration Continue\Projets\Integration"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\Mahmoud\Desktop\Esprit\ESPRIT Finals\Intégration Continue\Projets\Integration"/>
+    <property name="java.runtime.version" value="1.8.0_60-b27"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_60\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\Mahmoud\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Users\Mahmoud\Desktop\Esprit\ESPRIT Finals\Intégration Continue\Projets\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf4689492193934495359.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_60\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_261/bin/server;C:/Program Files/Java/jre1.8.0_261/bin;C:/Program Files/Java/jre1.8.0_261/lib/amd64;C:\Python27\;C:\Python27\Scripts;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\wamp64\bin\php\php5.6.40;C:\Program Files\dotnet\;C:\Users\Mahmoud\AppData\Local\Android\Sdk\platforms;C:\Users\Mahmoud\AppData\Local\Android\Sdk\platform-tools;C:\composer;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\flutter\bin;C:\Program Files\Java\jdk1.8.0_60\bin;C:\Intégration continue\apache-maven-3.5.0\bin;C:\Users\Mahmoud\AppData\Local\Programs\Python\Python38-32\Scripts\;C:\Users\Mahmoud\AppData\Local\Programs\Python\Python38-32\;C:\Users\Mahmoud\AppData\Local\Microsoft\WindowsApps;C:\Users\Mahmoud\AppData\Local\GitHubDesktop\bin;C:\Users\Mahmoud\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Mahmoud\AppData\Roaming\npm;C:\Program Files\JetBrains\IntelliJ IDEA 2019.2.4\bin;;C:\Users\Mahmoud\AppData\Roaming\Composer\vendor\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\Mahmoud\.dotnet\tools;C:\flutter\bin;C:\Intégration continue\apache-maven-3.5.0\bin;C:\Program Files\Java\jdk1.8.0_60\bin;;C:\Intégration continue\sts-bundle\sts-3.8.4.RELEASE;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\Mahmoud"/>
+    <property name="user.timezone" value="Africa/Luanda"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="Mahmoud"/>
+    <property name="java.class.path" value="/C:/Intégration continue/sts-bundle/sts-3.8.4.RELEASE/plugins/org.eclipse.m2e.maven.runtime_1.7.0.20160603-1931/jars/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_60\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_60"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_60\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_60\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_60\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\Mahmoud\Desktop\Esprit\ESPRIT Finals\Intégration Continue\Projets\Integration\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="testRetrieveAllContrat" classname="tn.esprit.spring.ContratServiceImplTest" time="0.108">
+    <failure message="expected:&lt;2&gt; but was:&lt;3&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<2> but was:<3>
+	at tn.esprit.spring.ContratServiceImplTest.testRetrieveAllContrat(ContratServiceImplTest.java:34)
+]]></failure>
+    <system-out><![CDATA[20:30:01.669 [main] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class tn.esprit.spring.ContratServiceImplTest]
+20:30:01.676 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+20:30:01.686 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+20:30:01.736 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [tn.esprit.spring.ContratServiceImplTest] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+20:30:01.763 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [tn.esprit.spring.ContratServiceImplTest], using SpringBootContextLoader
+20:30:01.769 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [tn.esprit.spring.ContratServiceImplTest]: class path resource [tn/esprit/spring/ContratServiceImplTest-context.xml] does not exist
+20:30:01.769 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [tn.esprit.spring.ContratServiceImplTest]: class path resource [tn/esprit/spring/ContratServiceImplTestContext.groovy] does not exist
+20:30:01.770 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [tn.esprit.spring.ContratServiceImplTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+20:30:01.771 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [tn.esprit.spring.ContratServiceImplTest]: ContratServiceImplTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+20:30:01.837 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [tn.esprit.spring.ContratServiceImplTest]
+20:30:01.948 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [C:\Users\Mahmoud\Desktop\Esprit\ESPRIT Finals\Intégration Continue\Projets\Integration\src\main\webapp\WEB-INF\classes\tn\esprit\spring\TimesheetApplication.class]
+20:30:01.949 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration tn.esprit.spring.TimesheetApplication for test class tn.esprit.spring.ContratServiceImplTest
+20:30:02.070 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [tn.esprit.spring.ContratServiceImplTest]: using defaults.
+20:30:02.071 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+20:30:02.099 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@45b4c3a9, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@399c4be1, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@291caca8, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@385e9564, org.springframework.test.context.support.DirtiesContextTestExecutionListener@5b94b04d, org.springframework.test.context.transaction.TransactionalTestExecutionListener@8c3b9d, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@4c39bec8, org.springframework.test.context.event.EventPublishingTestExecutionListener@f79e, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@7ee8290b, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@1f59a598, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@1e178745, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@192c3f1e, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@26b3fd41]
+20:30:02.102 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [tn.esprit.spring.ContratServiceImplTest]
+20:30:02.103 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [tn.esprit.spring.ContratServiceImplTest]
+20:30:02.103 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [tn.esprit.spring.ContratServiceImplTest]
+20:30:02.103 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [tn.esprit.spring.ContratServiceImplTest]
+20:30:02.104 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [tn.esprit.spring.ContratServiceImplTest]
+20:30:02.104 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [tn.esprit.spring.ContratServiceImplTest]
+20:30:02.109 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@424e1977 testClass = ContratServiceImplTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@10d68fcd testClass = ContratServiceImplTest, locations = '{}', classes = '{class tn.esprit.spring.TimesheetApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@77a57272, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@6e2c9341, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@b59d31, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@6e38921c], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true]], class annotated with @DirtiesContext [false] with mode [null].
+20:30:02.112 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [tn.esprit.spring.ContratServiceImplTest]
+20:30:02.112 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [tn.esprit.spring.ContratServiceImplTest]
+20:30:02.142 [main] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=-1}
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.2.1.RELEASE)
+
+2020-10-31 20:30:02 - INFO  - tn.esprit.spring.ContratServiceImplTest - Starting ContratServiceImplTest on DESKTOP-B32HI9A with PID 9792 (started by Mahmoud in C:\Users\Mahmoud\Desktop\Esprit\ESPRIT Finals\Intégration Continue\Projets\Integration)
+2020-10-31 20:30:02 - INFO  - tn.esprit.spring.ContratServiceImplTest - No active profile set, falling back to default profiles: default
+2020-10-31 20:30:04 - INFO  - org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-10-31 20:30:04 - INFO  - org.hibernate.Version - HHH000412: Hibernate Core {5.4.8.Final}
+2020-10-31 20:30:04 - INFO  - org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-10-31 20:30:05 - INFO  - org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2020-10-31 20:30:05 - INFO  - o.h.e.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-10-31 20:30:06 - WARN  - o.s.b.a.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-10-31 20:30:07 - INFO  - tn.esprit.spring.ContratServiceImplTest - Started ContratServiceImplTest in 5.229 seconds (JVM running for 6.352)
+Hibernate: select contrat0_.reference as referenc1_0_, contrat0_.date_debut as date_deb2_0_, contrat0_.employe_id as employe_6_0_, contrat0_.salaire as salaire3_0_, contrat0_.telephone as telephon4_0_, contrat0_.type_contrat as type_con5_0_ from contrat contrat0_
+]]></system-out>
+  </testcase>
+</testsuite>
