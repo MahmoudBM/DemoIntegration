@@ -26,7 +26,7 @@ public class EntrepriseServiceImpl implements IEntrepriseService {
 	public int ajouterEntreprise(Entreprise entreprise) {
 		l.info("On va ajouter une entreprise");
 		entrepriseRepoistory.save(entreprise);
-		l.info("Voiçi l'id du nouveau user : " + entreprise.getId());
+		l.info("Voiçi l'id de la nouvelle entreprise : " + entreprise.getId());
 		return entreprise.getId();
 	}
 

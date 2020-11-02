@@ -24,7 +24,7 @@ public class EntrepriseServiceImplTest {
 	@Test
 	public void TestajouterEntreprise(){
 		int entreprise = eps.ajouterEntreprise(new Entreprise());
-		assertEquals(entreprise,10);	
+		assertEquals(entreprise,19);	
 	}
 
 	@Test
