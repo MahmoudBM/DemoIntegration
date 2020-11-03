@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="tn.esprit.spring.EntrepriseServiceImplTest" time="0.087" tests="2" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="tn.esprit.spring.EntrepriseServiceImplTest" time="0.06" tests="2" errors="0" skipped="0" failures="2">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_60\jre\bin"/>
@@ -26,7 +26,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="C:\Users\Mahmoud\Desktop\Esprit\ESPRIT Finals\Intégration Continue\Projets\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf5447932247022687562.tmp"/>
+    <property name="classworlds.conf" value="C:\Users\Mahmoud\Desktop\Esprit\ESPRIT Finals\Intégration Continue\Projets\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf7063243821114127668.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_60\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_261/bin/server;C:/Program Files/Java/jre1.8.0_261/bin;C:/Program Files/Java/jre1.8.0_261/lib/amd64;C:\Python27\;C:\Python27\Scripts;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\wamp64\bin\php\php5.6.40;C:\Program Files\dotnet\;C:\Users\Mahmoud\AppData\Local\Android\Sdk\platforms;C:\Users\Mahmoud\AppData\Local\Android\Sdk\platform-tools;C:\composer;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\flutter\bin;C:\Program Files\Java\jdk1.8.0_60\bin;C:\Intégration continue\apache-maven-3.5.0\bin;C:\Users\Mahmoud\AppData\Local\Programs\Python\Python38-32\Scripts\;C:\Users\Mahmoud\AppData\Local\Programs\Python\Python38-32\;C:\Users\Mahmoud\AppData\Local\Microsoft\WindowsApps;C:\Users\Mahmoud\AppData\Local\GitHubDesktop\bin;C:\Users\Mahmoud\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Mahmoud\AppData\Roaming\npm;C:\Program Files\JetBrains\IntelliJ IDEA 2019.2.4\bin;;C:\Users\Mahmoud\AppData\Roaming\Composer\vendor\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\Mahmoud\.dotnet\tools;C:\flutter\bin;;C:\Intégration continue\sts-bundle\sts-3.8.4.RELEASE;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -60,6 +60,22 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="TestgetAllDepartementsNamesByEntreprise" classname="tn.esprit.spring.EntrepriseServiceImplTest" time="0.015"/>
-  <testcase name="TestajouterEntreprise" classname="tn.esprit.spring.EntrepriseServiceImplTest" time="0.068"/>
+  <testcase name="TestgetAllDepartementsNamesByEntreprise" classname="tn.esprit.spring.EntrepriseServiceImplTest" time="0.009">
+    <failure message="expected:&lt;4&gt; but was:&lt;2&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<4> but was:<2>
+	at tn.esprit.spring.EntrepriseServiceImplTest.TestgetAllDepartementsNamesByEntreprise(EntrepriseServiceImplTest.java:33)
+]]></failure>
+    <system-out><![CDATA[Hibernate: select entreprise0_.id as id1_4_0_, entreprise0_.name as name2_4_0_, entreprise0_.raison_social as raison_s3_4_0_, departemen1_.entreprise_id as entrepri3_1_1_, departemen1_.id as id1_1_1_, departemen1_.id as id1_1_2_, departemen1_.entreprise_id as entrepri3_1_2_, departemen1_.name as name2_1_2_ from entreprise entreprise0_ left outer join departement departemen1_ on entreprise0_.id=departemen1_.entreprise_id where entreprise0_.id=?
+]]></system-out>
+  </testcase>
+  <testcase name="TestajouterEntreprise" classname="tn.esprit.spring.EntrepriseServiceImplTest" time="0.049">
+    <failure message="expected:&lt;26&gt; but was:&lt;16&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<26> but was:<16>
+	at tn.esprit.spring.EntrepriseServiceImplTest.TestajouterEntreprise(EntrepriseServiceImplTest.java:27)
+]]></failure>
+    <system-out><![CDATA[2020-11-03 21:03:18 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl:28 - AjouterEntreprise()
+2020-11-03 21:03:18 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl:29 - On va ajouter une entreprise
+Hibernate: insert into entreprise (name, raison_social) values (?, ?)
+2020-11-03 21:03:18 [DEBUG] tn.esprit.spring.services.EntrepriseServiceImpl:31 - je viens de finir l'ajout du l'entreprise qui a l'id26
+2020-11-03 21:03:18 [INFO ] tn.esprit.spring.services.EntrepriseServiceImpl:37 - Voiçi l'id de la nouvelle entreprise : 26
+]]></system-out>
+  </testcase>
 </testsuite>

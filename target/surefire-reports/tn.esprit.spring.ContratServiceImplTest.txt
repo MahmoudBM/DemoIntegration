@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: tn.esprit.spring.ContratServiceImplTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 9.122 sec <<< FAILURE! - in tn.esprit.spring.ContratServiceImplTest
-testRetrieveAllContrat(tn.esprit.spring.ContratServiceImplTest)  Time elapsed: 0.175 sec  <<< FAILURE!
-java.lang.AssertionError: expected:<2> but was:<8>
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 5.54 sec <<< FAILURE! - in tn.esprit.spring.ContratServiceImplTest
+testRetrieveAllContrat(tn.esprit.spring.ContratServiceImplTest)  Time elapsed: 0.112 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<2> but was:<14>
 	at tn.esprit.spring.ContratServiceImplTest.testRetrieveAllContrat(ContratServiceImplTest.java:34)
 

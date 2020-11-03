@@ -24,10 +24,21 @@ public class EntrepriseServiceImpl implements IEntrepriseService {
 	DepartementRepository deptRepoistory;
 	
 	public int ajouterEntreprise(Entreprise entreprise) {
-		l.info("On va ajouter une entreprise");
-		entrepriseRepoistory.save(entreprise);
-		l.info("Voiçi l'id de la nouvelle entreprise : " + entreprise.getId());
-		return entreprise.getId();
+		try{
+			l.info("AjouterEntreprise()");
+			l.debug("On va ajouter une entreprise");
+			entrepriseRepoistory.save(entreprise);
+			l.debug("je viens de finir l'ajout du l'entreprise qui a l'id"+entreprise.getId());
+		}
+		 catch (Exception e) {
+				l.error("Erreur dans AjouterEntreprise() : " + e); // after throwing 
+			} finally {
+				// dans tous les cas
+				l.info("Voiçi l'id de la nouvelle entreprise : " + entreprise.getId());
+				return entreprise.getId();
+			}
+		
+		
 	}
 
 	public int ajouterDepartement(Departement dep) {

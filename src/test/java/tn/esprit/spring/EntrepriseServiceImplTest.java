@@ -24,13 +24,13 @@ public class EntrepriseServiceImplTest {
 	@Test
 	public void TestajouterEntreprise(){
 		int entreprise = eps.ajouterEntreprise(new Entreprise());
-		assertEquals(entreprise,19);	
+		assertEquals(entreprise,16);	
 	}
 
 	@Test
 	public void TestgetAllDepartementsNamesByEntreprise(){
 		List<String>  listDep= eps.getAllDepartementsNamesByEntreprise(2);
-		assertEquals(2, listDep.size());
-		
+		assertEquals(4, listDep.size());
 	}
 }
+		

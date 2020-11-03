@@ -18,21 +18,15 @@ import tn.esprit.spring.services.IDepartementService;
 @SpringBootTest
 public class DepartementServiceImplTest {
 	
-	
-	/* ******************** JUNIT TEST CLASS AKTHEM ARFAOUI ***************************  */
-
 	@Autowired 
-	IDepartementService ds; 
+	IDepartementService dep; 
 
 	@Test
 	public void testRetrieveAllDepartment() {
-		List<Departement> listDepartment = ds.getAllDepartements(); 
-		
-		// if there are 5 users in DB : 
-		assertEquals(5, listDepartment.size());
+		List<Departement> listDepartments = dep.getAllDepartements(); 
+		// il ya 3 departements
+		assertEquals(3, listDepartments.size());
 	}
-
-	
 
 }
 
